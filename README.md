@@ -58,3 +58,32 @@ A continuación se descarga el ejecutable para su instalación
 
 Buscamos en la carpeta de Xampp un ejecutable llamado xampp control
 ![](https://github.com/omaar-es/InicioSpring/blob/main/img/xamppControl.png?raw=true)
+
+
+#### 2. Validación de instalación
+###### JDK
+>  Escribimos en la terminal "java -version" Open JDK en su versión Coretto para validar que este instalado de forma correcta
+![](https://github.com/omaar-es/InicioSpring/blob/main/img/validacion-java.png?raw=true)
+###### MAVEN
+>  Escribimos en la terminal "mvn  -version" Open JDK en su versión Coretto para validar que este instalado de forma correcta
+
+![](https://github.com/omaar-es/InicioSpring/blob/main/img/maven-validacion.png?raw=true)
+
+
+#### 3. Prueba del endpoint desde el navegador
+Escribimos desde el navegador de nuestra preferencia lo siguiente: "*localhost:8080*"
+El puerto 8080 es el que esta predefinido por defecto
+![](https://github.com/omaar-es/InicioSpring/blob/main/img/springEndpoint.png?raw=true)
+
+#### 4. Como ejecutar el proyecto
+> 1. Escribimos en nuestra terminal el siguiente comando: ***mvn spring-boot:run***
+
+![](https://github.com/omaar-es/InicioSpring/blob/main/img/runJava.png?raw=true)
+
+> 2.Escribimos en el navegador ***localhost:8080***
+
+Nos dirigiremos al login de spring security en donde encontraremos nuestra contraseña en la terminal. La contraseña la podemos encontrar en la terminal:
+
+![](https://github.com/omaar-es/InicioSpring/blob/main/img/passwordSpring.png?raw=true)
+
+![](https://github.com/omaar-es/InicioSpring/blob/main/img/loginSpring.png?raw=true)
